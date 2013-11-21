@@ -16,10 +16,10 @@ public class TetrisPanel extends JPanel{
   final int BOARDWIDTH = 240;
   final int BOARDHEIGHT = 400;
   final Color[][] tetrisArray = new Color[25][15];
-  public int width = 15;
-  public int height = 25;
+  private int width = 15;
+  private int height = 25;
   
-  final int SHAPE_VEL = 1;
+  private final int SHAPE_VEL = 1;
   
   private java.awt.Shape currentShape;
   private java.awt.Shape checkShape;
